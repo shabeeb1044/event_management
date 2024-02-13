@@ -1,0 +1,13 @@
+footer div {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1.25rem;
+  text-align: center;
+}
+footer div .logo {
+  text-align: center;
+  margin: 20px;
+  border: 20px red solid;
+}/*# sourceMappingURL=Footer.css.map */
