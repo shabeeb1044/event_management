@@ -3,9 +3,8 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { ReactNode } from "react";
 
-export default function Home() {
+export default function Home(){
   return (
   <>
     <section className="bg-primary-50 bg-dotted bg-contain py-5 md:py-10">
