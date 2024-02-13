@@ -5,6 +5,8 @@ let cached =(global as any).mongoose || {conn:null,promise:null};
 
 
 export const connectDatabase = async()=>{
+    console.log("database");
+    
     if(cached.conn) return cached.conn;
     if(!mongodbURI) throw new Error('MONGODB_URI is missing');
 
